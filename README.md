@@ -31,3 +31,9 @@ source venv/bin/activate
 deactivate
 
 pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
+
+включить 
+https://console.cloud.google.com/apis/library/sheets.googleapis.com?project=test123-406111
+
+в помощь
+https://practicaldatascience.co.uk/data-engineering/how-to-create-a-google-service-account-client-secrets-json-key
