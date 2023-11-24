@@ -30,3 +30,4 @@ source venv/bin/activate
 На будущее, для отключения venv понадобится 
 deactivate
 
+pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
