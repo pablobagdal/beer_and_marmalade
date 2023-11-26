@@ -44,6 +44,8 @@ def generate_text(row):
 
 # Пример использования
 
+page_num = int(input('Введите номер страницы: '))
+item_num = int(input('Введите номер предмета: '))
 
-result_text = generate_text(df.iloc[2])
+result_text = generate_text(df.iloc[item_num])
 print(result_text)
